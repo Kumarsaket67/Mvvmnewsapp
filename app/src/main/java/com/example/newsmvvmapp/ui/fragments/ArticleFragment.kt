@@ -52,7 +52,7 @@ class ArticleFragment : Fragment() {
             loadUrl(article.url)
         }
 
-        //saket kumar is best 
+        //saket kumar is best but another people are also best
         binding.fab.setOnClickListener {
             viewModel.saveArticle(article)
             Snackbar.make(view,"Article Saved Successfully", LENGTH_SHORT).show()
