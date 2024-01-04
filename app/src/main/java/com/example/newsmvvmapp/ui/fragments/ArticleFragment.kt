@@ -52,6 +52,7 @@ class ArticleFragment : Fragment() {
             loadUrl(article.url)
         }
 
+        //saket kumar is best 
         binding.fab.setOnClickListener {
             viewModel.saveArticle(article)
             Snackbar.make(view,"Article Saved Successfully", LENGTH_SHORT).show()
